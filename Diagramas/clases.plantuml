@@ -1,0 +1,36 @@
+@startuml
+left to right direction
+
+'se crea una clase abstracta, no me interesa describir todos sus metodos'
+abstract Mapa
+Mapa <|-- Utilidad
+Mapa <|-- Objetos
+
+Utilidad <|-- a
+
+abstract Personajes
+abstract Enemigos
+
+Personajes <|-- Enemigos
+
+Enemigos <|-- Enemigo_1
+Enemigos <|-- Enemigo_2
+Enemigos <|-- Enemigo_3
+
+Enemigo_1 : atacar()
+Enemigo_2 : atacar()
+Enemigo_3 : atacar()
+
+Personajes <|-- Protagonista
+
+abstract Juego
+Juego -- Mapa
+Juego -- Personajes
+
+
+Juego : iniciar_juego()
+Juego : mostrar_juego()
+Juego : terminar_juego()
+
+
+@enduml
