@@ -12,6 +12,6 @@ El jugador puede tomar superpoderes y así puede avanzar más rápido.
 ## Diagramas:
 
 - Diagrama de casos de uso:
-[Nombre diagrama](archivo.ext)
+![Casos de uso](https://github.com/santiago2408/practica_repositorio_2/blob/dab4c4bff32c9433b041eea8f0d9d498458059ed/README.md#L15)
 - Diagrama de clases:
 - Diagrama de secuencia:
