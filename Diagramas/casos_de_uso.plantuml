@@ -1,0 +1,22 @@
+@startuml
+left to right direction
+
+actor usuario as g
+
+'Jugar implica ciertas acciones, como las siguientes:'
+package juego_plataformas {
+    usecase "Jugar" as UC1
+    usecase "Iniciar juego" as UC2
+    usecase "saltar" as UC3
+    usecase "tomar superpoder" as UC4
+    usecase "moverse izquierda a derecha" as UC5
+
+}
+
+g --> UC1
+UC1 <|-- UC2
+UC1 <|-- UC3
+UC1 <|-- UC4
+UC1 <|-- UC5
+
+@enduml
