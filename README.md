@@ -4,9 +4,9 @@ El juego de plataformas es un juego de un solo jugador o multijugador que permit
 
 En esta version se simulará un juego de plataformas de un solo jugador.
 
-El jugador debe moverse hacia adelante principalmente, aunque tambien puede saltar y moverse hacia atrás para atravesar todo el mapa y superar o eliminar a los enemigos que tiene cada nivel, hasta llegar al otro extremo del mapa, una vez llegue al otro extremo, habrá completado el nivel satisfactoriamente.
+El jugador debe moverse hacia adelante principalmente, aunque tambien puede saltar y moverse hacia atrás para atravesar todo el mapa y superar o eliminar a los enemigos que tiene el nivel, hasta llegar al otro extremo del mapa, una vez llegue al otro extremo, habrá completado el nivel satisfactoriamente.
 
-El jugador puede tomar superpoderes y así puede avanzar más rápido.
+El jugador puede toma un superpoder y así puede avanzar más rápido.
 
 
 ## Diagramas:
