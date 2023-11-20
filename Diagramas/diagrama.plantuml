@@ -17,18 +17,28 @@ class Personaje {
 }
 
 class Caracter {
-  // Atributos y métodos específicos de Caracter
+  HP
+  X
+  y
+  sprite
+  velocidad
+
+  update()
 }
 
 class CaracterGrafico {
-  // Atributos y métodos específicos de CaracterGrafico
+  sprite
+
+  animar()
+  getframe()
+
 }
 
 class Enemigos {
   // Atributos y métodos específicos de Enemigo
 }
 
-class ObstaculosGraficos {
+class Bloque {
 }
 
 
